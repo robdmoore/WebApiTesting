@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTesting", "WebApiTesting\WebApiTesting.csproj", "{E83BE765-E28B-4815-8A01-133B827F5639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTesting.Tests", "WebApiTesting.Tests\WebApiTesting.Tests.csproj", "{EBA8076E-2CFA-43F9-B799-8DCA065DC4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CE699E0C-A9B9-4A92-9757-91D2812248EE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83BE765-E28B-4815-8A01-133B827F5639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83BE765-E28B-4815-8A01-133B827F5639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83BE765-E28B-4815-8A01-133B827F5639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83BE765-E28B-4815-8A01-133B827F5639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA8076E-2CFA-43F9-B799-8DCA065DC4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA8076E-2CFA-43F9-B799-8DCA065DC4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA8076E-2CFA-43F9-B799-8DCA065DC4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA8076E-2CFA-43F9-B799-8DCA065DC4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
